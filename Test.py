@@ -17,7 +17,7 @@ open_ai = OpenAI(temperature=0.7)
 
 def generate_readout(specialty, name):
     template = """ 
-        As a read out manager, please come up with a simple read out (1200 words) of key clinical trails stages by pharmaceutical companys in the last one year based on specialties
+        As a read out manager, please come up with a simple read out (2000 words) of key clinical trails stages by pharmaceutical companys in the last one year based on specialties
         {specialties}
         and the main companies {name}
         
